@@ -11,7 +11,7 @@ doGoCorrPlot<- function(data,pref = "out"){
         library(corrplot)
         
         ## prepare lebel from given input file 
-        data <- mat
+        
         ## Do clustering. rearrange matrix row and column before clustering.
         M = cor(data, method="pearson") # do correlation 
         go_clst<-hclust(dist(M)) #do clustering of correlated data
@@ -76,5 +76,5 @@ prefix ="40_updated" ## prefix for output plot
 ## Run Function
 ################################
 
-doGoCorrPlot(mat , pref = prefix)
+doGoCorrPlot(data =mat , pref = prefix)
 

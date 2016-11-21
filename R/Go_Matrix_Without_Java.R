@@ -21,6 +21,7 @@ numberOfGenesOverlapped  <- apply(combinations, 2, function(X) {
 
 
 ## assign value to matrix.
+## chk 
 for(i in c(1: ncol(combinations))){
         indx <- combinations[,i]
         mat[indx[1],indx[2]] <- numberOfGenesOverlapped[i]

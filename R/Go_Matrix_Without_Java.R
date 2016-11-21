@@ -3,9 +3,13 @@
 ################################
 doGoCorrPlot<- function(data,pref = "out"){
         
+        # install required packages 
         
-        # data inform of data.frame. input will be output of java program GoMatrix. Manually you have to add last column as label in the input file .
+        if(!require(corrplot)){
+                install.packages("corrplot")
+        }
         library(corrplot)
+        
         ## prepare lebel from given input file 
         data <- mat
         ## Do clustering. rearrange matrix row and column before clustering.

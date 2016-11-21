@@ -38,11 +38,13 @@ head(data)
 dat <- sapply(as.character(data[,2]), function(X){return(strsplit(X,":"))}) ## split by deleminator 
 names(dat) <- as.character(data[,1]) ## assign names to each elem of list 
 
-mat <- matrix(nrow = length(dat),ncol = length(dat))
-colnames(mat) <- names(dat)
-row.names(mat) <- names(dat)
+mat <- matrix(nrow = length(dat),ncol = length(dat)) # create empty matrix
+colnames(mat) <- names(dat) # assign colnames 
+row.names(mat) <- names(dat) # assign row names
 
-combinations <- combn(c(1:length(dat)),2)
+combinations <- combn(c(1:length(dat)),2) ### create all possible combination for given dimension of matrix 
+
+# get number of overlapped genes between each pair of GO 
 numberOfGenesOverlapped  <- apply(combinations, 2, function(X) { 
         row = X[1] 
         col = X[2] 
@@ -51,7 +53,7 @@ numberOfGenesOverlapped  <- apply(combinations, 2, function(X) {
 })
 
 ## assign value to matrix.
-## chk 
+
 for(i in c(1: ncol(combinations))){
         indx <- combinations[,i]
         mat[indx[1],indx[2]] <- numberOfGenesOverlapped[i]

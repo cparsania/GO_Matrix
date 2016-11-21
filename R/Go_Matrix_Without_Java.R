@@ -18,7 +18,7 @@ doGoCorrPlot<- function(data,pref = "out"){
         x<-M[go_clst$order,] # rearrange matrix with clustering order, rearrange row first
         x<-x[,go_clst$order] # rearrange matrix with clustering order, rearrange column now 
         head(colnames(x)) # chk arranged columns 
-        head(rownames(x)) # chk arranged rows 
+        head(rownames(x)) 
         attributes(go_clst)  
         
         ## generate plot 

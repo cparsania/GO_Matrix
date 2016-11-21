@@ -31,7 +31,7 @@ doGoCorrPlot<- function(data,pref = "out"){
 ## Process input data 
 ################################
 
-matrixFile="goMatrix.txt" ## input file contains two column. Go and associated genes. Genes MUST BE sepereted by ":"
+matrixFile="./sampleData/goMatrix.txt" ## input file contains two column. Go and associated genes. Genes MUST BE sepereted by ":"
 data <- read.table(matrixFile,sep="\t",quote=NULL, comment='',check.names=F)
 head(data)
 

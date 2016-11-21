@@ -1,0 +1,264 @@
+x
+1	regulation of cellular amide metabolic process
+2	positive regulation of cellular amide metabolic process
+3	regulation of protein metabolic process
+4	regulation of cellular protein metabolic process
+5	positive regulation of macromolecule metabolic process
+6	positive regulation of metabolic process
+7	positive regulation of cellular metabolic process
+8	negative regulation of protein metabolic process
+9	negative regulation of cellular amide metabolic process
+10	regulation of translation
+11	posttranscriptional regulation of gene expression
+12	positive regulation of protein metabolic process
+13	positive regulation of cellular protein metabolic process
+14	organelle organization
+15	cellular component organization or biogenesis
+16	cellular component organization
+17	positive regulation of biological process
+18	biological regulation
+19	regulation of biological process
+20	positive regulation of cellular process
+21	negative regulation of biological process
+22	negative regulation of cellular process
+23	regulation of cellular process
+24	regulation of metabolic process
+25	regulation of cellular response to stress
+26	regulation of molecular function
+27	regulation of phosphate metabolic process
+28	regulation of phosphorus metabolic process
+29	regulation of asexual sporulation
+30	regulation of asexual reproduction
+31	reproduction
+32	reproductive process
+33	developmental process
+34	cellular developmental process
+35	single-organism developmental process
+36	sporulation
+37	anatomical structure development
+38	developmental process involved in reproduction
+39	cell differentiation
+40	anatomical structure formation involved in morphogenesis
+41	anatomical structure morphogenesis
+42	sporulation resulting in formation of a cellular spore
+43	sexual sporulation
+44	sexual sporulation resulting in formation of a cellular spore
+45	response to alcohol
+46	cellular response to alcohol
+47	response to farnesol
+48	cellular response to farnesol
+49	response to lipid
+50	cellular response to lipid
+51	regulation of biological quality
+52	response to osmotic stress
+53	cellular response to osmotic stress
+54	cellular response to drug
+55	response to chemical
+56	cellular response to chemical stimulus
+57	response to stimulus
+58	cellular response to stimulus
+59	response to abiotic stimulus
+60	response to stress
+61	cellular response to stress
+62	regulation of response to stress
+63	regulation of response to stimulus
+64	multi-organism process
+65	cell communication
+66	response to external stimulus
+67	cellular response to external stimulus
+68	cellular response to nutrient levels
+69	cellular response to extracellular stimulus
+70	response to nutrient levels
+71	response to extracellular stimulus
+72	cellular response to starvation
+73	response to starvation
+74	cellular chemical homeostasis
+75	chemical homeostasis
+76	cell redox homeostasis
+77	cellular homeostasis
+78	homeostatic process
+79	response to organic substance
+80	cellular response to organic substance
+81	response to oxygen-containing compound
+82	cellular response to oxygen-containing compound
+83	ribonucleoprotein complex subunit organization
+84	ribonucleoprotein complex assembly
+85	ribonucleoprotein complex biogenesis
+86	ribosome biogenesis
+87	ribosomal small subunit biogenesis
+88	maturation of SSU-rRNA
+89	maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)
+90	rRNA-containing ribonucleoprotein complex export from nucleus
+91	rRNA transport
+92	rRNA export from nucleus
+93	nucleobase-containing compound transport
+94	RNA localization
+95	nucleic acid transport
+96	RNA transport
+97	establishment of RNA localization
+98	RNA export from nucleus
+99	nuclear export
+100	ribonucleoprotein complex localization
+101	ribonucleoprotein complex export from nucleus
+102	single-organism localization
+103	single-organism transport
+104	translation
+105	peptide biosynthetic process
+106	peptide metabolic process
+107	amide biosynthetic process
+108	cellular amide metabolic process
+109	gene expression
+110	cellular protein metabolic process
+111	protein metabolic process
+112	protein refolding
+113	protein folding
+114	organic substance transport
+115	macromolecule localization
+116	cellular localization
+117	nucleocytoplasmic transport
+118	nuclear transport
+119	single-organism cellular localization
+120	single-organism intracellular transport
+121	macromolecular complex assembly
+122	cellular macromolecular complex assembly
+123	cellular component biogenesis
+124	macromolecular complex subunit organization
+125	cellular component assembly
+126	positive regulation by organism of defense response of other organism involved in symbiotic interaction
+127	positive regulation by symbiont of host defense response
+128	induction by organism of defense response of other organism involved in symbiotic interaction
+129	positive regulation of defense response
+130	induction by symbiont of host defense response
+131	oxidoreduction coenzyme metabolic process
+132	pyridine-containing compound metabolic process
+133	pyridine nucleotide metabolic process
+134	nicotinamide nucleotide metabolic process
+135	hexose metabolic process
+136	monosaccharide metabolic process
+137	pyruvate metabolic process
+138	nucleoside diphosphate metabolic process
+139	nucleotide phosphorylation
+140	ribonucleoside diphosphate metabolic process
+141	glucose metabolic process
+142	nucleoside diphosphate phosphorylation
+143	gluconeogenesis
+144	hexose biosynthetic process
+145	monosaccharide biosynthetic process
+146	glycolytic process
+147	ATP generation from ADP
+148	purine ribonucleoside diphosphate metabolic process
+149	ADP metabolic process
+150	purine nucleoside diphosphate metabolic process
+151	proton transport
+152	hydrogen transport
+153	nucleoside triphosphate biosynthetic process
+154	purine ribonucleoside triphosphate biosynthetic process
+155	purine nucleoside triphosphate biosynthetic process
+156	ribonucleoside triphosphate biosynthetic process
+157	ATP biosynthetic process
+158	energy coupled proton transport, down electrochemical gradient
+159	ATP synthesis coupled proton transport
+160	purine ribonucleotide biosynthetic process
+161	purine nucleoside biosynthetic process
+162	purine ribonucleoside biosynthetic process
+163	purine nucleotide biosynthetic process
+164	ribonucleoside monophosphate biosynthetic process
+165	nucleoside monophosphate biosynthetic process
+166	glycosyl compound biosynthetic process
+167	ribonucleoside biosynthetic process
+168	nucleoside biosynthetic process
+169	ribonucleotide biosynthetic process
+170	ribose phosphate biosynthetic process
+171	ribonucleoside metabolic process
+172	nucleoside metabolic process
+173	glycosyl compound metabolic process
+174	purine nucleotide metabolic process
+175	ribonucleotide metabolic process
+176	purine nucleoside metabolic process
+177	purine ribonucleoside metabolic process
+178	ATP metabolic process
+179	nucleoside triphosphate metabolic process
+180	purine nucleoside triphosphate metabolic process
+181	ribonucleoside triphosphate metabolic process
+182	purine ribonucleoside triphosphate metabolic process
+183	purine nucleoside monophosphate metabolic process
+184	purine ribonucleoside monophosphate metabolic process
+185	purine ribonucleotide metabolic process
+186	ribonucleoside monophosphate metabolic process
+187	nucleoside monophosphate metabolic process
+188	nucleobase-containing small molecule metabolic process
+189	nucleotide metabolic process
+190	nucleoside phosphate metabolic process
+191	purine-containing compound metabolic process
+192	ribose phosphate metabolic process
+193	organophosphate biosynthetic process
+194	purine-containing compound biosynthetic process
+195	nucleotide biosynthetic process
+196	nucleoside phosphate biosynthetic process
+197	carboxylic acid biosynthetic process
+198	organic acid biosynthetic process
+199	serine family amino acid metabolic process
+200	alpha-amino acid metabolic process
+201	cellular amino acid metabolic process
+202	monocarboxylic acid biosynthetic process
+203	dicarboxylic acid metabolic process
+204	acetyl-CoA metabolic process
+205	aerobic respiration
+206	tricarboxylic acid cycle
+207	cellular lipid biosynthetic process
+208	ergosterol biosynthetic process
+209	phytosteroid biosynthetic process
+210	cellular alcohol biosynthetic process
+211	ergosterol metabolic process
+212	phytosteroid metabolic process
+213	cellular alcohol metabolic process
+214	steroid biosynthetic process
+215	sterol biosynthetic process
+216	arginine metabolic process
+217	glutamine family amino acid metabolic process
+218	alpha-amino acid biosynthetic process
+219	cellular amino acid biosynthetic process
+220	arginine biosynthetic process
+221	glutamine family amino acid biosynthetic process
+222	organonitrogen compound biosynthetic process
+223	cellular nitrogen compound biosynthetic process
+224	organonitrogen compound metabolic process
+225	cellular nitrogen compound metabolic process
+226	cellular biosynthetic process
+227	nitrogen compound metabolic process
+228	organic substance biosynthetic process
+229	biosynthetic process
+230	single-organism metabolic process
+231	sulfur compound metabolic process
+232	single-organism cellular process
+233	single-organism process
+234	cellular process
+235	primary metabolic process
+236	cellular metabolic process
+237	organic substance metabolic process
+238	response to defenses of other organism involved in symbiotic interaction
+239	response to other organism
+240	response to external biotic stimulus
+241	response to host defenses
+242	response to host
+243	interaction with host
+244	symbiosis, encompassing mutualism through parasitism
+245	energy derivation by oxidation of organic compounds
+246	cellular respiration
+247	cofactor biosynthetic process
+248	coenzyme biosynthetic process
+249	small molecule metabolic process
+250	single-organism biosynthetic process
+251	oxoacid metabolic process
+252	carboxylic acid metabolic process
+253	small molecule biosynthetic process
+254	organic acid metabolic process
+255	carbohydrate biosynthetic process
+256	cofactor metabolic process
+257	coenzyme metabolic process
+258	monocarboxylic acid metabolic process
+259	phosphate-containing compound metabolic process
+260	phosphorus metabolic process
+261	generation of precursor metabolites and energy
+262	organophosphate metabolic process
+263	carbohydrate derivative metabolic process

@@ -1,7 +1,7 @@
 ################################
 ## load  Function 
 ################################
-doGoCorrPlot<- function(filePath,pref = "out"){
+doGoCorrPlot<- function(filePath,pref = "out", outImageHeight = 4000, outImageWidth= 4000,colorLabelSize = 3 ,GOLabelSize =1){
         
         # install required packages 
         
@@ -60,8 +60,8 @@ doGoCorrPlot<- function(filePath,pref = "out"){
         attributes(go_clst)  
         
         ## generate plot 
-        png(file=paste(pref,"MyGoClusterMap.png",sep="_"),height = 5000,width=5000) # create file
-        corrplot(as.matrix(x), type="full", method="color",is.corr = F,diag=T,order ="original",tl.cex=1,cl.cex = 5) #do corr plot without  clustering & for single sample 
+        png(file=paste(pref,"MyGoClusterMap.png",sep="_"),height = outImageHeight,width=outImageHeight) # create file
+        corrplot(as.matrix(x), type="full", method="color",is.corr = F,diag=T,order ="original",tl.cex=GOLabelSize,cl.cex = colorLabelSize) #do corr plot without  clustering & for single sample 
         #legend("topleft", legend = names(s), col=s, pch="---",cex=5,text.col = s)  # put legend on plot
         dev.off()
         ## write go in order of clustering 
@@ -74,5 +74,6 @@ doGoCorrPlot<- function(filePath,pref = "out"){
 ## Run Function
 ################################
 prefix ="40_updated" ## prefix for output plot 
+
 doGoCorrPlot(filePath = "./sampleData/goMatrix.txt", pref = prefix)
 

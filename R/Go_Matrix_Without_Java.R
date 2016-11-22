@@ -3,6 +3,7 @@
 ################################
 doGoCorrPlot<- function(filePath,pref = "out", outImageHeight = 4000, outImageWidth= 4000,colorLabelSize = 3 ,GOLabelSize =1){
         
+        
         # install required packages 
         
         if(!require(corrplot)){
@@ -69,11 +70,10 @@ doGoCorrPlot<- function(filePath,pref = "out", outImageHeight = 4000, outImageWi
         
 }
 
-
 ################################
 ## Run Function
 ################################
-prefix ="40_updated" ## prefix for output plot 
+prefix ="Out_GO_Matrix" ## prefix for output plot 
 
 doGoCorrPlot(filePath = "./sampleData/goMatrix.txt", pref = prefix)
 

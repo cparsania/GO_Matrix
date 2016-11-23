@@ -1,7 +1,7 @@
 ################################
 ## load  Function 
 ################################
-doGoCorrPlot<- function(filePath,pref = "out", outImageHeight = 4000, outImageWidth= 4000,colorLabelSize = 3 ,GOLabelSize =1){
+doGoCorrPlot<- function(filePath = "./sampleData/goMatrix.txt", pref = "out", outImageHeight = 4000, outImageWidth= 4000,colorLabelSize = 3 ,GOLabelSize =1){
         
         
         # install required packages 
@@ -15,7 +15,6 @@ doGoCorrPlot<- function(filePath,pref = "out", outImageHeight = 4000, outImageWi
         ## Process input data 
         ################################
       
-        filePath = "./sampleData/goMatrix.txt"
         matrixFile=filePath ## input file contains two column. Go and associated genes. Genes MUST BE sepereted by ":"
         data <- read.table(matrixFile,sep="\t",quote=NULL, comment='',check.names=F)
         head(data)
